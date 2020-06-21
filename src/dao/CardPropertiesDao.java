@@ -81,7 +81,8 @@ public class CardPropertiesDao {
     }
 
     public int getSum() {
-            return this.getProperty1()+this.getProperty2()+this.getProperty3()+this.getProperty4()
+            sum = this.getProperty1()+this.getProperty2()+this.getProperty3()+this.getProperty4()
                 +this.getProperty5()+this.getProperty6()+this.getProperty7()+this.getProperty8();
+            return sum;
     }
 }

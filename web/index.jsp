@@ -44,6 +44,8 @@
                     <h1 class="page-header__title">>>>我的卡片</h1>
                 </div>
                 <div class="page-header__info">
+                    <a href="${pageContext.request.contextPath}/browsecard"><h1 class="page-header__title">|卡片集市</h1></a>
+                    <a href="${pageContext.request.contextPath}/addCard"><h1 class="page-header__title">|添加卡片</h1></a>
                     <a href="${pageContext.request.contextPath}/random"><h1 class="page-header__title">|随机卡片</h1></a>
                     <a href="${pageContext.request.contextPath}/exam"><h1 class="page-header__title">|答题</h1></a>
                     <a href="${pageContext.request.contextPath}/mail"><h1 class="page-header__title">|密保邮箱</h1></a>
