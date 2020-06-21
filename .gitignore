@@ -22,3 +22,5 @@ out
 /src/main/webapp/node_modules/*
 
 src/main/webapp/WEB-INF/web.xml
+
+.rar
